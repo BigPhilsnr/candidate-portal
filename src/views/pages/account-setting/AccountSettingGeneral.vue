@@ -78,7 +78,7 @@
             />
           </b-form-group>
         </b-col>
-        <b-col sm="6">
+        <b-col sm="12">
           <b-form-group
             label="E-mail"
             label-for="account-e-mail"
@@ -89,18 +89,6 @@
               placeholder="Email"
             />
 
-          </b-form-group>
-        </b-col>
-        <b-col sm="6">
-          <b-form-group
-            label="Company"
-            label-for="account-company"
-          >
-            <b-form-input
-              v-model="optionsLocal.company"
-              name="company"
-              placeholder="Company name"
-            />
           </b-form-group>
         </b-col>
 

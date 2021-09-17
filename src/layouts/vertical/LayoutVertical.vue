@@ -2,7 +2,6 @@
   <layout-vertical>
 
     <router-view />
-
     <app-customizer
       v-if="showCustomizer"
       slot="customizer"

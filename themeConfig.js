@@ -9,9 +9,9 @@ export const $themeBreakpoints = {}
 // APP CONFIG
 export const $themeConfig = {
   app: {
-    appName: 'Vuexy', // Will update name in navigation menu (Branding)
+    appName: 'M.T.R.H', // Will update name in navigation menu (Branding)
     // eslint-disable-next-line global-require
-    appLogoImage: require('@/assets/images/logo/logo.svg'), // Will update logo in navigation menu (Branding)
+    appLogoImage: 'https://newsblaze.co.ke/wp-content/uploads/2019/01/Moi-Teaching-and-Referal-Hospital-Logo.jpg', // Will update logo in navigation menu (Branding)
   },
   layout: {
     isRTL: false,

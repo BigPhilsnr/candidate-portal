@@ -44,44 +44,6 @@
     </b-tab>
     <!--/ change password tab -->
 
-    <!-- info -->
-    <b-tab>
-
-      <!-- title -->
-      <template #title>
-        <feather-icon
-          icon="InfoIcon"
-          size="18"
-          class="mr-50"
-        />
-        <span class="font-weight-bold">Information</span>
-      </template>
-
-      <account-setting-information
-        v-if="options.info"
-        :information-data="options.info"
-      />
-    </b-tab>
-
-    <!-- social links -->
-    <b-tab>
-
-      <!-- title -->
-      <template #title>
-        <feather-icon
-          icon="LinkIcon"
-          size="18"
-          class="mr-50"
-        />
-        <span class="font-weight-bold">Social</span>
-      </template>
-
-      <account-setting-social
-        v-if="options.social"
-        :social-data="options.social"
-      />
-    </b-tab>
-
     <!-- notification -->
     <b-tab>
 
@@ -107,8 +69,6 @@
 import { BTabs, BTab } from 'bootstrap-vue'
 import AccountSettingGeneral from './AccountSettingGeneral.vue'
 import AccountSettingPassword from './AccountSettingPassword.vue'
-import AccountSettingInformation from './AccountSettingInformation.vue'
-import AccountSettingSocial from './AccountSettingSocial.vue'
 import AccountSettingNotification from './AccountSettingNotification.vue'
 
 export default {
@@ -117,8 +77,6 @@ export default {
     BTab,
     AccountSettingGeneral,
     AccountSettingPassword,
-    AccountSettingInformation,
-    AccountSettingSocial,
     AccountSettingNotification,
   },
   data() {

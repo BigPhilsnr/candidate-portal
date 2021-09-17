@@ -18,17 +18,17 @@
 
     <!-- Left Col -->
     <div class="bookmark-wrapper align-items-center flex-grow-1 d-none d-lg-flex">
-
+         <search-bar   v-if="false"/>
       <!-- Bookmarks Container -->
-      <bookmarks />
+      <bookmarks v-if="false"  />
     </div>
 
     <b-navbar-nav class="nav align-items-center ml-auto">
-      <locale />
-      <dark-Toggler class="d-none d-lg-block" />
-      <search-bar />
-      <cart-dropdown />
-      <notification-dropdown />
+      <locale v-if="false" />
+      <dark-Toggler class="d-none d-lg-block" v-if="false" />
+      <search-bar v-if="false" />
+      <cart-dropdown  v-if="false"/>
+      <notification-dropdown v-if="false" />
       <user-dropdown />
     </b-navbar-nav>
   </div>

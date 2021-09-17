@@ -7,7 +7,7 @@
         <vuexy-logo />
 
         <h2 class="brand-text text-primary ml-1">
-          Vuexy
+          Moi Teaching And Referral Hospital
         </h2>
       </b-link>
       <!-- /Brand logo-->
@@ -42,7 +42,7 @@
             title-tag="h2"
             class="font-weight-bold mb-1"
           >
-            Adventure starts here 🚀
+           Welcome  👋
           </b-card-title>
           <b-card-text class="mb-2">
             Make your app management easy and fun!
@@ -156,40 +156,6 @@
               <span>&nbsp;Sign in instead</span>
             </b-link>
           </p>
-
-          <!-- divider -->
-          <div class="divider my-2">
-            <div class="divider-text">
-              or
-            </div>
-          </div>
-
-          <div class="auth-footer-btn d-flex justify-content-center">
-            <b-button
-              variant="facebook"
-              href="javascript:void(0)"
-            >
-              <feather-icon icon="FacebookIcon" />
-            </b-button>
-            <b-button
-              variant="twitter"
-              href="javascript:void(0)"
-            >
-              <feather-icon icon="TwitterIcon" />
-            </b-button>
-            <b-button
-              variant="google"
-              href="javascript:void(0)"
-            >
-              <feather-icon icon="MailIcon" />
-            </b-button>
-            <b-button
-              variant="github"
-              href="javascript:void(0)"
-            >
-              <feather-icon icon="GithubIcon" />
-            </b-button>
-          </div>
         </b-col>
       </b-col>
     <!-- /Register-->

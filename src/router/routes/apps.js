@@ -1,5 +1,66 @@
 export default [
   {
+    path: '/career/jobs',
+    name: 'career-jobs',
+    component: () => import('@/views/recruitment/jobs/JobList.vue'),
+  },
+  {
+    path: '/career/my-applications',
+    name: 'career-my-applications',
+    component: () => import('@/views/recruitment/my-applications/MyApplications.vue'),
+  },
+  {
+    path: '/career/account-setting',
+    name: 'career-account-setting',
+    component: () => import('@/views/pages/account-setting/AccountSetting.vue'),
+    meta: {
+      pageTitle: 'Account Settings',
+      breadcrumb: [
+        {
+          text: 'User',
+        },
+        {
+          text: 'Account Settings',
+          active: true,
+        },
+      ],
+    },
+  },
+  {
+    path: '/career/my-application/:id',
+    name: 'career-my-application',
+    component: () => import('@/views/recruitment/my-applications/MyApplication.vue'),
+    meta: {
+      pageTitle: 'Job Details',
+      breadcrumb: [
+        {
+          text: 'career',
+        },
+        {
+          text: 'position description',
+          active: true,
+        },
+      ],
+    },
+  },
+  {
+    path: '/career/form-wizard',
+    name: 'career-profile',
+    component: () => import('@/views/recruitment/profile/ApplicantProfile.vue'),
+    meta: {
+      pageTitle: 'Applicant Details',
+      breadcrumb: [
+        {
+          text: 'Profile',
+        },
+        {
+          text: 'Applicant Details',
+          active: true,
+        },
+      ],
+    },
+  },
+  {
     path: '/apps/calendar',
     name: 'apps-calendar',
     component: () => import('@/views/apps/calendar/Calendar.vue'),
